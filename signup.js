@@ -39,7 +39,7 @@ function check() {
   }
   if (returnval == true) {
     if (password.length < 8) {
-      seterror('password1', 'Password should have at least 8 digits');
+      seterror('password1', '*Password should have atleast 8 characters');
       returnval = false;
       document.getElementById('password').focus();
     } else if (pattern.test(char1)) {
@@ -50,7 +50,7 @@ function check() {
 
     // } else if (pattern1.test(password) == false) {
 
-    //     seterror("password1", "*password should have atleast one uppercas!");
+    //     seterror("password1", "*password should have atleast one uppercase!");
     //     returnval = false;
 
     // }
