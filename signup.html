@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="signup.css" />
+    <title>Signup</title>
+  </head>
+    <section id="login">
+      <div class="login-container">
+        <h1>Create an account</h1>
+        <!-- <form aciton ="index.html" name="myForm" onsubmit="return check()" method="post"> -->
+        <div id="name">
+          <input
+            type="text"
+            id="username"
+            class="inputs username"
+            placeholder="Username"
+          />
+          <div class="formerror"></div>
+        </div>
+        <div id="email1">
+          <input
+            type="email"
+            id="email"
+            class="inputs name"
+            placeholder="Email"
+          />
+          <div class="formerror"></div>
+        </div>
+        <div id="ph1">
+          <input
+            type="number"
+            id="ph"
+            class="inputs number"
+            placeholder="Phone Number (+91)"
+          />
+          <div class="formerror"></div>
+        </div>
+        
+        <div id="password1">
+  <input type="password" id="password" class="inputs password" placeholder="Password" />
+  <br />
+  <div class="formerror"></div>
+  <span id="password-toggle" onclick="togglePassword()">Show</span>
+</div>
+
+
+
+        <input
+          type="submit"
+          class="btn-1"
+          value="Create account"
+          onclick="check()"
+        />
+        <!-- </form> -->
+        <div class="already">
+          Already have an account? <a href="login.html">Login</a>
+        </div>
+      </div>
+    </section>
+    <script src="signup.js"></script>
+<footer style="text-align: center; padding: 10px; position: absolute; bottom: 0; width: 100%;">
+    <p style = "color: #1c1717">&copy; 2023 Amrutha Muralidhar</p>
+</footer>
+  </body>
+</html>

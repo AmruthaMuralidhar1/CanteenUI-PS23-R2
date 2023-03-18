@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="login.css" />
+    <title>Login</title>
+  </head>
+  <body>
+    <section id="login">
+      <div class="login-container">
+        <h1>LOGIN</h1>
+        <div id="name">
+          <input
+            type="text"
+            id="username"
+            class="inputs username"
+            placeholder="Username"
+          />
+          <div class="formerror"></div>
+        </div>
+        <div id="password1">
+  <input type="password" id="password" class="inputs password" placeholder="Password" />
+  <br />
+  <div class="formerror"></div>
+  <span id="password-toggle" onclick="togglePassword()">Show</span>
+</div>
+
+        <button class="btn-1" onclick="check()">sign in</button>
+        <div class="already">New here? <a href="./signup.html">Signup</a></div>
+      </div>
+    </section>
+    <footer style="text-align: center; padding: 10px; position: absolute; bottom: 0; width: 100%;">
+    <p style = "color: #1c1717">&copy; 2023 Amrutha Muralidhar</p>
+</footer>
+    <script src="login.js"></script>
+  </body>
+</html>

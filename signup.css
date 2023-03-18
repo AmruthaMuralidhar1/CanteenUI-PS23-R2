@@ -1,0 +1,85 @@
+body {
+  margin: 0;
+  background-image: url(sbg.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#login {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;  
+}
+
+.login-container {
+  background-color: #0b0a0a;
+  height: 480px;
+  width: 400px;
+  border-radius: 35px;
+  border: 2px solid #181616;
+  text-align: center;
+}
+
+.login-container h1 {
+  font-family: 'Raleway',sans-serif;
+  text-transform: capitalize;
+  font-weight: 200;
+  color: white;
+  font-size: 28px;
+}
+
+.inputs {
+ height : 40px;
+  width: 300px;
+  border: 0.5px solid white;
+  border-radius: 9px;
+  padding-left: 10px;
+  padding-right: 10px;
+  margin-bottom: 15px;
+}
+
+.inputs::placeholder {
+  font-family: 'Raleway',sans-serif;
+}
+
+.username {
+  margin-top: 20px;
+}
+
+.btn-1 {
+  font-size: 14px;
+  font-family: 'Raleway',sans-serif;
+  text-transform: capitalize;
+  color: black;
+  padding: 10px;
+  border-radius: 10px;
+  background-color: white;
+  border: none;
+  margin-top: 20px;
+}
+
+.already {
+  font-size: 14px;
+  font-family: 'Raleway',sans-serif;
+  color: white;
+  margin-top: 5px;
+}
+
+.already a {
+    text-decoration: underline;
+  color: white;
+}
+#password-toggle{
+padding-bottom: 20px;
+color: white;
+}
+
+
+.formerror 
+{
+
+  font-family: sans-serif;
+  text-transform: capitalize;
+  color: #c1fb04;
+}
