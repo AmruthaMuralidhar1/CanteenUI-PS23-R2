@@ -28,6 +28,7 @@ function check() {
 
   if (returnval == true) {
     alert("You are logged in!");
+ sessionStorage.setItem('username', username);
     window.location = 'index.html';
   }
 }
@@ -52,11 +53,21 @@ function togglePassword() {
   }
 }
 
-
-
 // Populate error containers
 function seterror(id, error) {
   //sets error inside tag of id
   element = document.getElementById(id);
   element.getElementsByClassName('formerror')[0].innerHTML = error;
+}
+
+
+function showOrderReceived() {
+   const username = sessionStorage.getItem('username');
+    alert(username + " your order is received");
+}
+
+
+
+function withoutlogin() {
+  alert("You must be logged in to place order!");
 }
