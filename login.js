@@ -63,7 +63,7 @@ function seterror(id, error) {
 
 function showOrderReceived() {
    const username = sessionStorage.getItem('username');
-    alert(username + " your order is received");
+    alert(username + " your order is received\nThank You!");
 }
 
 
